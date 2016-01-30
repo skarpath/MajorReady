@@ -12,12 +12,12 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.support.v7.widget.Toolbar;
+
 
 public class MainActivity extends AppCompatActivity {
 
     Button maLvl1btn;
-    Toolbar mToolbar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,17 +32,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-        //Show toolbar
-        ShowToolbar();
-
-
-
-
-
-
     }
 
 
@@ -69,12 +58,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void ShowToolbar() {
-        //Adds toolbar
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("Major Ready");
-    }
+
 
 
 
