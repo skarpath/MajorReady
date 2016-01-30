@@ -23,15 +23,16 @@
 
     <Spinner
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:id="@+id/lvl1q6spinner"
         android:layout_below="@+id/textView26"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp" />
+        android:layout_marginTop="42dp"
+        android:background="@drawable/spinnerborder" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
         android:text="Next"
         android:id="@+id/lvl1q6nextbtn"
         android:layout_alignParentBottom="true"
@@ -39,5 +40,7 @@
         android:textStyle="bold"
         android:textSize="30dp"
         android:onClick="Lvl1Q6nextBtn"
-        android:clickable="true" />
+        android:clickable="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/spinnerborder" />
 </RelativeLayout>

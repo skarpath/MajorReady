@@ -40,13 +40,15 @@
     </LinearLayout>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
         android:text="@string/btnNext"
         android:id="@+id/btnNextL2Q2"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="67dp" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/spinnerborder"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:orientation="horizontal"
