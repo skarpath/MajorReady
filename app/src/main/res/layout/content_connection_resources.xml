@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Find us on:"
+            android:text="Share your results:"
             android:id="@+id/textView5"
             android:textSize="40dp" />
 
@@ -60,12 +60,33 @@
             android:id="@+id/textView6"
             android:textSize="40dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="www.code.org - to learn more about programming"
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="www.awc-hq.org/ - to learn about Women in Computing"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="bioinformatics.uncc.edu - to learn more about Bioinformatics at UNC Charlotte"
+            android:id="@+id/textView18" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Go back"
-            android:id="@+id/button6"
-            android:layout_gravity="center_horizontal" />
+            android:text="Start Over"
+            android:id="@+id/startOverButton"
+            android:onClick="startOverButtonClick"/>
 
     </LinearLayout>
 
