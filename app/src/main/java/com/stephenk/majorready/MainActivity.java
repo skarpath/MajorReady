@@ -1,30 +1,36 @@
 package com.stephenk.majorready;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.Window;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button maLvl2btn;
+    Button maLvl1btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity);
-        maLvl2btn = (Button) findViewById(R.id.maLvl2btn);
+        setContentView(R.layout.activity_main);
+
+
+        Toast.makeText(getApplicationContext(),"THIS IS 1" ,Toast.LENGTH_SHORT).show();
 
 
 
+        //Button Code
+        maLvl1btn = (Button) findViewById(R.id.maLvl1btn);
+        maLvl1btn.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Level2Q2Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
