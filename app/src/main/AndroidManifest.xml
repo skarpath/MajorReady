@@ -62,10 +62,6 @@
             android:name=".Level1ResultsActivity"
             android:label="@string/title_activity_level1_results"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Level2ResultsActivity"
-            android:label="@string/title_activity_level2_results"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
