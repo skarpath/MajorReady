@@ -5,4 +5,5 @@ package com.stephenk.majorready;
  */
 public class Data {
     String name;
+    String rna;
 }
