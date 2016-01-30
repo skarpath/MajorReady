@@ -37,7 +37,7 @@ public class Level1Q3Activity extends AppCompatActivity {
 
     public void Lvl1Q3nextBtn(View view){
         String selected = sItems.getSelectedItem().toString();
-        if (selected.equals("1 minus Dominant Frequency")) {
+        if (selected.equals("1 - p")) {
             Intent intent = new Intent(this, Level1Q4Activity.class);
             startActivity(intent);
        }else{
