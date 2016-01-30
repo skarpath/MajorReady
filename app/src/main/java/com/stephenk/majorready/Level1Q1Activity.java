@@ -39,14 +39,5 @@ public class Level1Q1Activity extends AppCompatActivity {
         sItems.setAdapter(adapter);
     }
 
-    public void nextQuestion(View view){
-        String selected = sItems.getSelectedItem().toString();
-        if (selected.equals("The amount of DNA nucleotides")) {
-
-        }else{
-            Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
-            toast.show();
-        }
-    }
 
 }
