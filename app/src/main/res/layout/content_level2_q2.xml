@@ -109,7 +109,7 @@
         <Spinner
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:id="@+id/L2Q2Spinner2"
+            android:id="@+id/L2Q2Spinner1"
             android:layout_weight="1"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -150,7 +150,7 @@
         <Spinner
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:id="@+id/L2Q2Spinner3"
+            android:id="@+id/L2Q2Spinner2"
             android:layout_weight="1"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -193,7 +193,7 @@
         <Spinner
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:id="@+id/L2Q2Spinner4"
+            android:id="@+id/L2Q2Spinner3"
             android:layout_weight="1"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -234,7 +234,7 @@
         <Spinner
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner"
+            android:id="@+id/L2Q2Spinner4"
             android:layout_weight="1"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
