@@ -45,12 +45,12 @@ public class Level2Q2Activity extends AppCompatActivity {
         Level2Q2Activity = (Button) findViewById(R.id.btnNextL2Q2);
         Level2Q2Activity.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                if ((spinner1.getSelectedItemPosition()==2)&&(spinner2.getSelectedItemPosition()==0)&&(spinner3.getSelectedItemPosition()==3)&&(spinner4.getSelectedItemPosition()==4)){
+               // if ((spinner1.getSelectedItemPosition()==2)&&(spinner2.getSelectedItemPosition()==0)&&(spinner3.getSelectedItemPosition()==3)&&(spinner4.getSelectedItemPosition()==4)){
                     Intent intent = new Intent(Level2Q2Activity.this, Level2Q3Activity.class);
                     startActivity(intent);
-                }else{
-                    Toast.makeText(Level2Q2Activity.this, "Incorrect, try again", Toast.LENGTH_SHORT).show();
-                }
+               // }else{
+                  //  Toast.makeText(Level2Q2Activity.this, "Incorrect, try again", Toast.LENGTH_SHORT).show();
+               // }
             }
         });
 

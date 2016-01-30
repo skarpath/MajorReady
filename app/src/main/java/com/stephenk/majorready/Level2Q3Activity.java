@@ -36,12 +36,12 @@ public class Level2Q3Activity extends AppCompatActivity {
 
     public void nextQuestion(View view){
         String selected = sItems.getSelectedItem().toString();
-        if (selected.equals("The amount of DNA nucleotides")) {
+       // if (selected.equals("The amount of DNA nucleotides")) {
             Intent intent = new Intent(this, Level2Q4Activity.class);
             startActivity(intent);
-        }else{
-            Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
-            toast.show();
-        }
+       // }else{
+        //    Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
+           // toast.show();
+       // }
     }
 }
