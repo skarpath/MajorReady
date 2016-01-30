@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         maLvl1btn = (Button) findViewById(R.id.maLvl1btn);
         maLvl1btn.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Level2Q2Activity.class);
+                Intent intent = new Intent(MainActivity.this, Level1Q1Activity.class);
                 startActivity(intent);
             }
         });
