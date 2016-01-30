@@ -16,4 +16,5 @@
     <string name="title_activity_level1_q1">Level1Q1Activity</string>
     <string name="l2q2headingmRNA">mRNA</string>
     <string name="l2q2headingDNA">DNA</string>
+    <string name="title_activity_level1_results">Level1ResultsActivity</string>
 </resources>
