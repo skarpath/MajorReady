@@ -50,7 +50,7 @@
                 android:orientation="horizontal"
                 android:baselineAligned="false"
                 android:layout_width="match_parent"
-                android:layout_height="75dp" >
+                android:layout_height="wrap_content" >
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -92,7 +92,7 @@
                 android:orientation="horizontal"
                 android:baselineAligned="false"
                 android:layout_width="match_parent"
-                android:layout_height="240dp" >
+                android:layout_height="wrap_content" >
 
                 <LinearLayout
                     android:orientation="vertical"
