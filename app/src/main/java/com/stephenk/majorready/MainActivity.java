@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Intent intent = new Intent(MainActivity.this, Level2Q1Activity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(MainActivity.this, Level2Q1Activity.class);
+//        startActivity(intent);
 
 
         //Button Code
