@@ -2,9 +2,14 @@ package com.stephenk.majorready;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+
 
 public class Level1Q2Activitiy extends AppCompatActivity {
 
@@ -42,4 +47,7 @@ public class Level1Q2Activitiy extends AppCompatActivity {
     public void Lvl1Q2nextBtn(View view){
 
     }
+
+
+
 }
