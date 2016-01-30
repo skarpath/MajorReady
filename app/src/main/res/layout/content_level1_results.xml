@@ -63,8 +63,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7"
-                        android:id="@+id/textView26" />
+                        android:text="p = .7;"
+                        android:id="@+id/pTextView" />
                 </LinearLayout>
 
                 <View
@@ -83,7 +83,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/testDescription"
+                        android:text="@string/level1ResultsStep1"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
@@ -105,7 +105,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7"
+                        android:text="q = 1 - p;"
                         android:id="@+id/textView26" />
                 </LinearLayout>
 
@@ -125,7 +125,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/testDescription"
+                        android:text="@string/level1ResultsStep2"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
@@ -147,7 +147,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7"
+                        android:text="AA = p^2;"
                         android:id="@+id/textView26" />
                 </LinearLayout>
 
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/testDescription"
+                        android:text="@string/level1ResultsStep3"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
@@ -189,7 +189,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7"
+                        android:text="Aa = 2*p*q;"
                         android:id="@+id/textView26" />
                 </LinearLayout>
 
@@ -209,7 +209,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/testDescription"
+                        android:text="@string/level1ResultsStep4"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
@@ -231,7 +231,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7"
+                        android:text="aa = q^2;"
                         android:id="@+id/textView26" />
                 </LinearLayout>
 
@@ -251,133 +251,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/testDescription"
-                        android:id="@+id/textView27" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:baselineAligned="false"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_weight=".7"
-                    android:layout_marginEnd="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7"
-                        android:id="@+id/textView26" />
-                </LinearLayout>
-
-                <View
-                    android:background="#555"
-                    android:layout_width="5dp"
-                    android:layout_height="fill_parent" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_weight=".5"
-                    android:layout_marginStart="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/testDescription"
-                        android:id="@+id/textView27" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:baselineAligned="false"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_weight=".7"
-                    android:layout_marginEnd="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7"
-                        android:id="@+id/textView26" />
-                </LinearLayout>
-
-                <View
-                    android:background="#555"
-                    android:layout_width="5dp"
-                    android:layout_height="fill_parent" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_weight=".5"
-                    android:layout_marginStart="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/testDescription"
-                        android:id="@+id/textView27" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:baselineAligned="false"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_weight=".7"
-                    android:layout_marginEnd="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7"
-                        android:id="@+id/textView26" />
-                </LinearLayout>
-
-                <View
-                    android:background="#555"
-                    android:layout_width="5dp"
-                    android:layout_height="fill_parent" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_weight=".5"
-                    android:layout_marginStart="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/testDescription"
+                        android:text="@string/level1ResultsStep5"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
@@ -385,11 +259,30 @@
         </LinearLayout>
     </ScrollView>
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:text="Level 2"
-        android:id="@+id/Level2Btn"
-        android:onClick="Level2Btn" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="75dp"
+            android:text="End Now"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            android:id="@+id/Level2Btn2"
+            android:onClick="Level2Btn2" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="75dp"
+            android:backgroundTint="@color/green"
+            android:text="Level 2"
+            android:id="@+id/Level2Btn"
+            android:onClick="Level2Btn" />
+    </LinearLayout>
+
 
 </LinearLayout>
