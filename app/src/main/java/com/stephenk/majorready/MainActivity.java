@@ -24,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        Intent intent = new Intent(MainActivity.this, ConnectionResources.class);
+        startActivity(intent);
+
+
         //Button Code
         maLvl1btn = (Button) findViewById(R.id.maLvl1btn);
         maLvl1btn.setOnClickListener(new Button.OnClickListener() {

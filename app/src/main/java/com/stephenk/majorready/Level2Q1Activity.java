@@ -16,8 +16,7 @@ public class Level2Q1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level2_q1);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
 
         Spinner spinner = (Spinner) findViewById(R.id.level2Q1Spinner1);
         // Create an ArrayAdapter using the string array and a default spinner layout

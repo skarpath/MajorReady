@@ -25,8 +25,7 @@ public class Level2Q2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level2_q2);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
 
         spinner1 = (Spinner) findViewById(R.id.L2Q2Spinner1);
         spinner2 = (Spinner) findViewById(R.id.L2Q2Spinner2);
