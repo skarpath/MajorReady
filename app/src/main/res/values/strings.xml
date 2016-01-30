@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MajorReady</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_level2_q1">Level2Q1Activity</string>
 </resources>
