@@ -23,13 +23,13 @@ public class Level1Q3Activity extends AppCompatActivity {
         List<String> spinnerArray =  new ArrayList<String>();
         spinnerArray.add("Dominant Frequency times .6");
         spinnerArray.add("1 - Dominant Frequency");
-        spinnerArray.add("Dominant Frequency - Recessive Frequency");
+        spinnerArray.add("Recessive Frequency + Dominant Frequency");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_spinner_item, spinnerArray);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        sItems = (Spinner) findViewById(R.id.lvl2q3spinner);
+        sItems = (Spinner) findViewById(R.id.Lvl1q3spinner);
         sItems.setAdapter(adapter);
     }
 

@@ -1,5 +1,6 @@
 package com.stephenk.majorready;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -57,6 +58,11 @@ public class Level2Q1Activity extends AppCompatActivity {
         adapter5.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner
         spinner5.setAdapter(adapter5);
+    }
+
+    public void Lvl2q1nextBtn(View view){
+        Intent intent = new Intent(this, Level2Q2Activity.class);
+        startActivity(intent);
     }
 
 }

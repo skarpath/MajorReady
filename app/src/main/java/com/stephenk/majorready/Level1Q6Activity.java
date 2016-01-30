@@ -28,7 +28,7 @@ public class Level1Q6Activity extends AppCompatActivity {
                 this, android.R.layout.simple_spinner_item, spinnerArray);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        sItems = (Spinner) findViewById(R.id.lvl2q3spinner);
+        sItems = (Spinner) findViewById(R.id.lvl1q6spinner);
         sItems.setAdapter(adapter);
     }
 

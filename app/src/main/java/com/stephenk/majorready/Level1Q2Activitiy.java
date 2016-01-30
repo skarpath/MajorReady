@@ -1,5 +1,6 @@
 package com.stephenk.majorready;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -45,7 +46,8 @@ public class Level1Q2Activitiy extends AppCompatActivity {
     }
 
     public void Lvl1Q2nextBtn(View view){
-
+        Intent intent = new Intent(this, Level1Q3Activity.class);
+        startActivity(intent);
     }
 
 
