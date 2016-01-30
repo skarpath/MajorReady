@@ -18,6 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Level2Q2Activity"
+            android:label="@string/title_activity_level2_q2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Level2Q1Activity"
+            android:label="@string/title_activity_level2_q1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
