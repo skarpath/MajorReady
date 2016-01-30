@@ -14,4 +14,6 @@
     <string name="BtnBusiness">Business</string>
     <string name="btnHealth">Health</string>
     <string name="title_activity_level1_q1">Level1Q1Activity</string>
+    <string name="l2q2headingmRNA">mRNA</string>
+    <string name="l2q2headingDNA">DNA</string>
 </resources>
