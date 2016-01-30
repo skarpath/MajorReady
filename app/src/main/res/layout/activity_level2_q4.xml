@@ -36,14 +36,15 @@
 
     <Spinner
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:id="@+id/Lvl2q4spinner"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/spinnerborder" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
         android:text="Finish"
         android:id="@+id/Lvl2q4finishbtn"
         android:layout_alignParentBottom="true"
@@ -51,5 +52,6 @@
         android:textSize="30dp"
         android:textStyle="bold"
         android:clickable="true"
-        android:onClick="finishBtn" />
+        android:onClick="finishBtn"
+        android:background="@drawable/spinnerborder" />
 </RelativeLayout>

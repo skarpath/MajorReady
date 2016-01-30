@@ -35,12 +35,12 @@ public class Level1Q5Activity extends AppCompatActivity {
 
     public void Lvl1Q5nextBtn(View view){
         String selected = sItems.getSelectedItem().toString();
-        if (selected.equals("2 * Dominant Frequency * Recessive Frequency")) {
+        /*if (selected.equals("2 * Dominant Frequency * Recessive Frequency")) { */
             Intent intent = new Intent(this, Level1Q6Activity.class);
             startActivity(intent);
-        }else{
+       /* }else{
             Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
             toast.show();
-        }
+        } */
     }
 }
