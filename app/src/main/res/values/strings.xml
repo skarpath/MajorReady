@@ -6,4 +6,7 @@
     <string name="titleQuestion_Level2Q2Activity">Which mRNA nucleotides will be produced from the following DNA nucleotides?</string>
     <string name="title_activity_level2_q1">Level2Q1Activity</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="titleIF">if</string>
+    <string name="titlethen">then</string>
+    <string name="btnNext">Next</string>
 </resources>

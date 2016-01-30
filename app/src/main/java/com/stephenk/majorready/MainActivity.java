@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button maLvl1btn;
+    Button maLvl2btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Button Code
-        maLvl1btn = (Button) findViewById(R.id.maLvl1btn);
-        maLvl1btn.setOnClickListener(new Button.OnClickListener() {
+        maLvl2btn = (Button) findViewById(R.id.maLvl2btn);
+        maLvl2btn.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Level2Q2Activity.class);
                 startActivity(intent);
