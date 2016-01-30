@@ -23,19 +23,21 @@ public class Level2Q1Activity extends AppCompatActivity {
 
     private void updateText(){
         TextView pTextView = (TextView) findViewById(R.id.liveDnaPreviewText);
-        String temp = spinner.getSelectedItem().toString() + spinner2.getSelectedItem().toString() + spinner3.getSelectedItem().toString() + spinner4.getSelectedItem().toString() + spinner5.getSelectedItem().toString();
-        String finalTemp = "";
-        for(int i = 0; i<15; i++) {
-            char aChar = temp.charAt(i);
-            finalTemp = finalTemp + aChar;
-            if(i != 15) {
-                finalTemp = finalTemp + "  ";
+        if (pTextView != null) {
+            String temp = spinner.getSelectedItem().toString() + spinner2.getSelectedItem().toString() + spinner3.getSelectedItem().toString() + spinner4.getSelectedItem().toString() + spinner5.getSelectedItem().toString();
+            String finalTemp = "";
+            for (int i = 0; i < 15; i++) {
+                char aChar = temp.charAt(i);
+                finalTemp = finalTemp + aChar;
+                if (i != 15) {
+                    finalTemp = finalTemp + "  ";
+                }
             }
-        }
 
-        pTextView.setText(finalTemp);
+            pTextView.setText(finalTemp);
+        }
     }
-    private View.OnTouchListener Spinner_OnTouch = new View.OnTouchListener() {
+    private View.OnTouchListener Spinner_OnTouch_L2Q1 = new View.OnTouchListener() {
         public boolean onTouch(View v, MotionEvent event) {
 
             if (event.getAction() == MotionEvent.ACTION_UP) {
@@ -101,11 +103,11 @@ public class Level2Q1Activity extends AppCompatActivity {
 
 
         updateText();
-        spinner.setOnTouchListener(Spinner_OnTouch);
-        spinner2.setOnTouchListener(Spinner_OnTouch);
-        spinner3.setOnTouchListener(Spinner_OnTouch);
-        spinner4.setOnTouchListener(Spinner_OnTouch);
-        spinner5.setOnTouchListener(Spinner_OnTouch);
+        spinner.setOnTouchListener(Spinner_OnTouch_L2Q1);
+        spinner2.setOnTouchListener(Spinner_OnTouch_L2Q1);
+        spinner3.setOnTouchListener(Spinner_OnTouch_L2Q1);
+        spinner4.setOnTouchListener(Spinner_OnTouch_L2Q1);
+        spinner5.setOnTouchListener(Spinner_OnTouch_L2Q1);
     }
 
     public void Lvl2q1nextBtn(View view){
