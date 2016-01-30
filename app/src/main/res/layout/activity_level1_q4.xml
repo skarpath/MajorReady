@@ -43,4 +43,15 @@
         android:clickable="true"
         android:background="@drawable/spinnerborder"
         android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/silverback"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/lvl1q4spinner"
+        android:layout_above="@+id/lvl1q4nextbtn" />
 </RelativeLayout>

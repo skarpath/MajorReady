@@ -43,4 +43,15 @@
         android:clickable="true"
         android:layout_marginBottom="10dp"
         android:background="@drawable/spinnerborder" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/moth"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_above="@+id/lvl1q5nextbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lvl1q5spinner" />
 </RelativeLayout>

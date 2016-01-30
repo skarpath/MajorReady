@@ -66,4 +66,13 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/spinnerborder" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:layout_above="@+id/lvl2q3nextbtn"
+        android:src="@drawable/dna"
+        android:layout_below="@+id/lvl2q3spinner"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
