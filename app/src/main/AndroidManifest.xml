@@ -30,7 +30,11 @@
             android:name=".Level2Q1Activity"
             android:label="@string/title_activity_level2_q1"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Level2Q4Activity"></activity>
+        <activity android:name=".Level2Q4Activity" />
+        <activity
+            android:name=".Level1Q1Activity"
+            android:label="@string/title_activity_level1_q1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
