@@ -20,7 +20,7 @@ public class Level1Q2Activitiy extends AppCompatActivity {
         seekBar = (SeekBar) findViewById(R.id.Lvl1Q2seekbar);
         pvalue = (TextView) findViewById(R.id.Lvl1q2pvaluetxt);
 
-        pvalue.setText("p= " + seekBar.getProgress() + "%");
+        pvalue.setText("p= " + seekBar.getProgress() * .01);
 
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int progress = 0;
@@ -33,13 +33,13 @@ public class Level1Q2Activitiy extends AppCompatActivity {
             }
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                pvalue.setText("p= " + seekBar.getProgress() + "%");
+                pvalue.setText("p= " + seekBar.getProgress() * .01);
                 pop = seekBar.getProgress();
             }
         });
     }
 
-    public void nextBtn(View view){
+    public void Lvl1Q2nextBtn(View view){
 
     }
 }

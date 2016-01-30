@@ -7,51 +7,36 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.stephenk.majorready.Level1Q2Activitiy">
+    tools:context="com.stephenk.majorready.Level1Q3Activity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="2    What is the frequency of the dominant allele in your population?"
-        android:id="@+id/Lvl1Q2prompttxt"
+        android:text="3   How would you get the recessive alle in your population?"
+        android:id="@+id/Lvl1Q3prompttxt"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:textAlignment="center"
         android:textStyle="bold"
-        android:textSize="30dp"
-        android:textAlignment="center" />
+        android:textSize="30dp" />
 
-    <TextView
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="p= 0"
-        android:id="@+id/Lvl1q2pvaluetxt"
-        android:layout_below="@+id/Lvl1Q2prompttxt"
+        android:id="@+id/Lvl1q3spinner"
+        android:layout_below="@+id/Lvl1Q3prompttxt"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold"
-        android:textSize="30dp"
-        android:textAlignment="center"
-        android:paddingTop="50dp" />
-
-    <SeekBar
-        android:layout_width="fill_parent"
-        android:layout_height="30dp"
-        android:id="@+id/Lvl1Q2seekbar"
-        android:layout_below="@+id/Lvl1q2pvaluetxt"
-        android:layout_centerHorizontal="true"
-        android:max="100" />
+        android:layout_marginTop="46dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:id="@+id/Lvl1Q2nextbtn"
+        android:id="@+id/lvl1q3nextbtn"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:clickable="true"
-        android:onClick="Lvl1Q2nextBtn" />
-
+        android:onClick="Lvl1Q3nextBtn" />
 </RelativeLayout>
