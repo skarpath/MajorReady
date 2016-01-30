@@ -31,16 +31,18 @@ public class Level1Q5Activity extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sItems = (Spinner) findViewById(R.id.lvl1q5spinner);
         sItems.setAdapter(adapter);
+
+        sItems.setSelection(1);
     }
 
     public void Lvl1Q5nextBtn(View view){
         String selected = sItems.getSelectedItem().toString();
-        /*if (selected.equals("2 * Dominant Frequency * Recessive Frequency")) { */
+        if (selected.equals("2 * Dominant Frequency * Recessive Frequency")) {
             Intent intent = new Intent(this, Level1Q6Activity.class);
             startActivity(intent);
-       /* }else{
-            Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
+        }else{
+            Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer", Toast.LENGTH_LONG);
             toast.show();
-        } */
+        }
     }
 }
