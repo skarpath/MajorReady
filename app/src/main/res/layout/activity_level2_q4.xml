@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/level2ResultsCode4"
+        android:text="Each mRNA nucleotide base corresponds to:"
         android:id="@+id/textView26"
         android:layout_below="@+id/Lvl2q4titletxt"
         android:layout_centerHorizontal="true"
@@ -38,9 +38,9 @@
         android:layout_width="wrap_content"
         android:layout_height="70dp"
         android:id="@+id/Lvl2q4spinner"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/spinnerborder" />
+        android:background="@drawable/spinnerborder"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="135dp"
@@ -54,4 +54,13 @@
         android:clickable="true"
         android:onClick="finishBtn"
         android:background="@drawable/spinnerborder" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:src="@drawable/transcbub3"
+        android:layout_above="@+id/Lvl2q4finishbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Lvl2q4spinner" />
 </RelativeLayout>

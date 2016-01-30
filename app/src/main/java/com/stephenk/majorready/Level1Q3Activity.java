@@ -21,9 +21,9 @@ public class Level1Q3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_level1_q3);
 
         List<String> spinnerArray =  new ArrayList<String>();
-        spinnerArray.add("Dominant Frequency times .6");
-        spinnerArray.add("1 minus Dominant Frequency");
-        spinnerArray.add("Recessive Frequency plus Dominant Frequency");
+        spinnerArray.add("p + 1");
+        spinnerArray.add("1 - p");
+        spinnerArray.add("p^2");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_spinner_item, spinnerArray);

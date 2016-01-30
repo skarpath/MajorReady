@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -20,6 +21,10 @@ public class Level2Q3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level2_q3);
+
+
+        TextView pTextView = (TextView) findViewById(R.id.lvl2q3dnatxt);
+        pTextView.setText("dna = " + Data.dnaSeq);
 
         List<String> spinnerArray =  new ArrayList<String>();
         spinnerArray.add("25 mRNA nucleotides");
