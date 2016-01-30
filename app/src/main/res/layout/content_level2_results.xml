@@ -50,7 +50,7 @@
                 android:orientation="horizontal"
                 android:baselineAligned="false"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="75dp" >
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -63,8 +63,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="gene = &quot;ATCGGATCGACGCCATATACGC&quot;"
-                        android:id="@+id/pTextView" />
+                        android:text="dna = &quot;ATCGGATCGACGCCATATACGC&quot;"
+                        android:id="@+id/pTextViewResults2" />
                 </LinearLayout>
 
                 <View
@@ -189,7 +189,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="\trna = rna + returned value\n\n}"
+                        android:text="@string/level2ResultsCode4"
                         android:id="@+id/textView26" />
                 </LinearLayout>
 

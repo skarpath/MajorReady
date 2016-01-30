@@ -9,6 +9,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 public class Level2ResultsActivity extends AppCompatActivity {
 
@@ -17,6 +18,8 @@ public class Level2ResultsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level2_results);
 
+        TextView pTextView = (TextView) findViewById(R.id.pTextView);
+        pTextView.setText("dna = " + Data.dnaSeq);
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
                 this);
