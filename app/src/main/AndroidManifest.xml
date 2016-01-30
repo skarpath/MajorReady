@@ -37,7 +37,7 @@
         <activity
             android:name=".Level1Q1Activity"
             android:label="@string/title_activity_level1_q1"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Level1Q2Activitiy"
             android:label="title_activity_level1_q2"
@@ -45,7 +45,19 @@
         <activity
             android:name=".Level1Q3Activity"
             android:label="title_activity_level1_q3"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Level1Q4Activity"
+            android:label="title_activity_level1_q4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Level1Q5Activity"
+            android:label="title_activity_level1_q5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Level1Q6Activity"
+            android:label="title_activity_level1_q5"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
