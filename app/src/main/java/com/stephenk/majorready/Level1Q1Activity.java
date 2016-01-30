@@ -1,5 +1,6 @@
 package com.stephenk.majorready;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -40,4 +41,8 @@ public class Level1Q1Activity extends AppCompatActivity {
     }
 
 
+    public void Level1Q1ButtonClick(View view) {
+        Intent intent = new Intent(Level1Q1Activity.this, Level1Q2Activitiy.class);
+        startActivity(intent);
+    }
 }
