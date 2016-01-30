@@ -13,4 +13,6 @@
     <string name="TitlePsychology">Psychology</string>
     <string name="BtnBusiness">Business</string>
     <string name="btnHealth">Health</string>
+    <string name="l2q2headingmRNA">mRNA</string>
+    <string name="l2q2headingDNA">DNA</string>
 </resources>

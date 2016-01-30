@@ -61,23 +61,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/titleIF"
+            android:text="@string/l2q2headingDNA"
             android:layout_weight="1"
-            android:id="@+id/textView5" />
+            android:id="@+id/l2q2headingDNA" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="A"
+            android:text="@string/l2q2headingmRNA"
             android:layout_weight="1"
-            android:id="@+id/textView6" />
+            android:id="@+id/l2q2headingmRNA" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/titlethen" />
     </LinearLayout>
 
     <LinearLayout
@@ -110,6 +105,15 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/titlethen" />
+
+        <Spinner
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/L2Q2Spinner2"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:spinnerMode="dropdown" />
     </LinearLayout>
 
     <LinearLayout
@@ -142,6 +146,17 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/titlethen" />
+
+        <Spinner
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/L2Q2Spinner3"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:spinnerMode="dropdown" />
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -165,7 +180,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="C"
+            android:text="G"
             android:layout_weight="1"
             android:id="@+id/textView12" />
 
@@ -174,6 +189,56 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/titlethen" />
+
+        <Spinner
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/L2Q2Spinner4"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout6"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/titleIF"
+            android:layout_weight="1"
+            android:id="@+id/textView14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="C"
+            android:layout_weight="1"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/titlethen" />
+
+        <Spinner
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:spinnerMode="dropdown" />
     </LinearLayout>
 
 </RelativeLayout>
