@@ -21,9 +21,9 @@ public class Level1Q3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_level1_q3);
 
         List<String> spinnerArray =  new ArrayList<String>();
+        spinnerArray.add("1 minus Dominant Frequency");
         spinnerArray.add("Dominant Frequency times .6");
-        spinnerArray.add("1 - Dominant Frequency");
-        spinnerArray.add("Recessive Frequency + Dominant Frequency");
+        spinnerArray.add("Recessive Frequency plus Dominant Frequency");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_spinner_item, spinnerArray);
@@ -35,12 +35,12 @@ public class Level1Q3Activity extends AppCompatActivity {
 
     public void Lvl1Q3nextBtn(View view){
         String selected = sItems.getSelectedItem().toString();
-        /*if (selected.equals("1 - Dominant Frequency")) { */
+        if (selected.equals("1 minus Dominant Frequency")) {
             Intent intent = new Intent(this, Level1Q4Activity.class);
             startActivity(intent);
-       /* }else{
+       }else{
             Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
             toast.show();
-        } */
+        }
     }
 }

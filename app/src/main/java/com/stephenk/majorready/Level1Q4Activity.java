@@ -35,12 +35,12 @@ public class Level1Q4Activity extends AppCompatActivity {
 
     public void Lvl1Q4nextBtn(View view){
         String selected = sItems.getSelectedItem().toString();
-       /* if (selected.equals("Dominant Frequency ^2")) { */
+       if (selected.equals("Dominant Frequency ^2")) {
             Intent intent = new Intent(this, Level1Q5Activity.class);
             startActivity(intent);
-        /*}else{
+        }else{
             Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
             toast.show();
-        }*/
+        }
     }
 }

@@ -21,9 +21,10 @@ public class Level1Q6Activity extends AppCompatActivity {
         setContentView(R.layout.activity_level1_q6);
 
         List<String> spinnerArray =  new ArrayList<String>();
+        spinnerArray.add("Recessive Frequency ^2");
         spinnerArray.add("Dominant Frequency ^2");
         spinnerArray.add("2 * Dominant Frequency * Recessive Frequency");
-        spinnerArray.add("Recessive Frequency ^2");
+
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_spinner_item, spinnerArray);
@@ -35,12 +36,12 @@ public class Level1Q6Activity extends AppCompatActivity {
 
     public void Lvl1Q6nextBtn(View view){
         String selected = sItems.getSelectedItem().toString();
-       /* if (selected.equals("Recessive Frequency ^2")) { */
+        if (selected.equals("Recessive Frequency ^2")) {
             Intent intent = new Intent(this, Level1ResultsActivity.class);
             startActivity(intent);
-       /* }else{
+        }else{
             Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
             toast.show();
-        } */
+        }
     }
 }
