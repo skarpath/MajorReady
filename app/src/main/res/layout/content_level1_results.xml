@@ -389,6 +389,7 @@
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:text="Level 2"
-        android:id="@+id/button5" />
+        android:id="@+id/Level2Btn"
+        android:onClick="Level2Btn" />
 
 </LinearLayout>

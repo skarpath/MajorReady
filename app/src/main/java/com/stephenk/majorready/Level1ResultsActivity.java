@@ -1,5 +1,6 @@
 package com.stephenk.majorready;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,11 @@ public class Level1ResultsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_level1_results);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+    }
+
+    public void Level2Btn(View view){
+        Intent intent = new Intent(this, Level2Q1Activity.class);
+        startActivity(intent);
     }
 
 }

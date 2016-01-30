@@ -1,5 +1,6 @@
 package com.stephenk.majorready;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,7 +36,8 @@ public class Level1Q6Activity extends AppCompatActivity {
     public void Lvl1Q6nextBtn(View view){
         String selected = sItems.getSelectedItem().toString();
         if (selected.equals("Recessive Frequency ^2")) {
-
+            Intent intent = new Intent(this, Level1ResultsActivity.class);
+            startActivity(intent);
         }else{
             Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
             toast.show();
