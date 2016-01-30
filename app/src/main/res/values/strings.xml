@@ -9,4 +9,8 @@
     <string name="titleIF">if</string>
     <string name="titlethen">then</string>
     <string name="btnNext">Next</string>
+    <string name="TitleBiology">Biology</string>
+    <string name="TitlePsychology">Psychology</string>
+    <string name="BtnBusiness">Business</string>
+    <string name="btnHealth">Health</string>
 </resources>

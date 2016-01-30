@@ -19,10 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Toast.makeText(getApplicationContext(),"THIS IS 1" ,Toast.LENGTH_SHORT).show();
-
-
-
         //Button Code
         maLvl2btn = (Button) findViewById(R.id.maLvl2btn);
         maLvl2btn.setOnClickListener(new Button.OnClickListener() {
