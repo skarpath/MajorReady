@@ -21,8 +21,8 @@ public class Level1Q3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_level1_q3);
 
         List<String> spinnerArray =  new ArrayList<String>();
-        spinnerArray.add("1 minus Dominant Frequency");
         spinnerArray.add("Dominant Frequency times .6");
+        spinnerArray.add("1 minus Dominant Frequency");
         spinnerArray.add("Recessive Frequency plus Dominant Frequency");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
@@ -31,6 +31,8 @@ public class Level1Q3Activity extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sItems = (Spinner) findViewById(R.id.Lvl1q3spinner);
         sItems.setAdapter(adapter);
+
+        sItems.setSelection(1);
     }
 
     public void Lvl1Q3nextBtn(View view){

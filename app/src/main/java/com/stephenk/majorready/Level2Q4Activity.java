@@ -31,16 +31,18 @@ public class Level2Q4Activity extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sItems = (Spinner) findViewById(R.id.Lvl2q4spinner);
         sItems.setAdapter(adapter);
+
+        sItems.setSelection(2);
     }
 
     public void finishBtn(View view){
         String selected = sItems.getSelectedItem().toString();
-       // if (selected.equals("Its complementary DNA nucleotide base")) {
+        if (selected.equals("Its complementary DNA nucleotide base")) {
             Intent intent = new Intent(this, Level2ResultsActivity.class);
             startActivity(intent);
-        //}else{
-           // Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
-           // toast.show();
-       // }
+        }else{
+            Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
+            toast.show();
+        }
     }
 }
