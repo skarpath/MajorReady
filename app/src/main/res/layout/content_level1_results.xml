@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
-        android:layout_weight="1.66">
+        android:layout_weight="1">
 
         <LinearLayout
             android:orientation="vertical"
@@ -265,23 +265,29 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="fill_parent"
+            android:layout_width="120dp"
             android:layout_weight="1"
             android:layout_height="75dp"
             android:text="End Now"
-            android:backgroundTint="@color/red"
-            android:textColor="@color/white"
             android:id="@+id/Level2Btn2"
-            android:onClick="Level2Btn2" />
+            android:onClick="Level2Btn2"
+            android:background="@drawable/spinnerborder"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp" />
 
         <Button
-            android:layout_width="fill_parent"
+            android:layout_width="120dp"
             android:layout_weight="1"
             android:layout_height="75dp"
-            android:backgroundTint="@color/green"
             android:text="Level 2"
             android:id="@+id/Level2Btn"
-            android:onClick="Level2Btn" />
+            android:onClick="Level2Btn"
+            android:background="@drawable/spinnerborder"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp" />
     </LinearLayout>
 
 

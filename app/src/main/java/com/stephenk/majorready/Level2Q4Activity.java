@@ -36,7 +36,8 @@ public class Level2Q4Activity extends AppCompatActivity {
     public void finishBtn(View view){
         String selected = sItems.getSelectedItem().toString();
         if (selected.equals("Its complementary DNA nucleotide base")) {
-
+            Intent intent = new Intent(this, Level2ResultsActivity.class);
+            startActivity(intent);
         }else{
             Toast toast = Toast.makeText(getApplicationContext(),"Incorrect answer",Toast.LENGTH_LONG);
             toast.show();
