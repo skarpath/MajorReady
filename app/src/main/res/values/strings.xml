@@ -27,9 +27,11 @@
     <string name="level1ResultsStep3">Using the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1), how would you find p^2, the frequency of the AA genotype?</string>
     <string name="level1ResultsStep4">Using the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1), how would you find pq, the frequency of the Aa genotype?</string>
     <string name="level1ResultsStep5">Using the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1), how would you find q^2, the frequency of the aa genotype?</string>
+    <string name="resultsLevel2Code2">func dnaToRna(nucleotide) {\n\tif nucleotide == \"A\" then\n\t\treturn \"U\"\n\telse if nucleotide == \"T\" then\n\t\treturn \"A\"\n\telse if nucleotide == \"G\" then\n\t\treturn \"C\"\n\telse if nucleotide == \"C\" then\n\t\treturn \"G\"\n}</string>
+    <string name="level2ResultsCode3">run dnaToRna X times {\n</string>
 
     <string-array name="Feeds">
-        <item >Apples versus Oranges </item>
+        <item>Apples versus Oranges </item>
 
     </string-array>
 </resources>

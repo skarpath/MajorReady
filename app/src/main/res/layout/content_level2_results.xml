@@ -10,9 +10,8 @@
     android:paddingRight="2dp"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.stephenk.majorready.Level1ResultsActivity"
-    tools:showIn="@layout/activity_level1_results"
-    android:weightSum="1">
+    tools:context="com.stephenk.majorready.Level2ResultsActivity"
+    tools:showIn="@layout/activity_level2_results">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -24,7 +23,8 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/code"
-            android:id="@+id/textView28" />
+            android:id="@+id/textView28"
+            android:layout_weight="0.84" />
 
         <TextView
             android:layout_width="0dp"
@@ -63,7 +63,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="p = .7;"
+                        android:text="gene = &quot;ATCGGATCGACGCCATATACGC&quot;"
                         android:id="@+id/pTextView" />
                 </LinearLayout>
 
@@ -74,7 +74,7 @@
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_weight=".5"
+                    android:layout_weight="1.4"
                     android:layout_marginStart="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
@@ -83,7 +83,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/level1ResultsStep1"
+                        android:text="Create your own gene!"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
@@ -92,7 +92,7 @@
                 android:orientation="horizontal"
                 android:baselineAligned="false"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="226dp" >
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -105,7 +105,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="q = 1 - p;"
+                        android:text="@string/resultsLevel2Code2"
                         android:id="@+id/textView26" />
                 </LinearLayout>
 
@@ -116,7 +116,7 @@
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_weight=".5"
+                    android:layout_weight="1.4"
                     android:layout_marginStart="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
@@ -147,7 +147,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="AA = p^2;"
+                        android:text="@string/level2ResultsCode3"
                         android:id="@+id/textView26" />
                 </LinearLayout>
 
@@ -158,7 +158,7 @@
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_weight=".5"
+                    android:layout_weight="1.4"
                     android:layout_marginStart="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/level1ResultsStep3"
+                        android:text=" How many mRNA nucleotides will you need to transcribe the DNA?"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
@@ -189,7 +189,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Aa = 2*p*q;"
+                        android:text="\trna = rna + returned value\n\n}"
                         android:id="@+id/textView26" />
                 </LinearLayout>
 
@@ -200,7 +200,7 @@
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_weight=".5"
+                    android:layout_weight="1.4"
                     android:layout_marginStart="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
@@ -209,49 +209,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/level1ResultsStep4"
-                        android:id="@+id/textView27" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:baselineAligned="false"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_weight=".7"
-                    android:layout_marginEnd="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="aa = q^2;"
-                        android:id="@+id/textView26" />
-                </LinearLayout>
-
-                <View
-                    android:background="#555"
-                    android:layout_width="5dp"
-                    android:layout_height="fill_parent" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_weight=".5"
-                    android:layout_marginStart="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="@string/level1ResultsStep5"
+                        android:text="Each mRNA nucleotides corresponds to:"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
@@ -268,18 +226,8 @@
             android:layout_width="fill_parent"
             android:layout_weight="1"
             android:layout_height="75dp"
-            android:text="End Now"
-            android:backgroundTint="@color/red"
-            android:textColor="@color/white"
-            android:id="@+id/Level2Btn2"
-            android:onClick="Level2Btn2" />
-
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_weight="1"
-            android:layout_height="75dp"
             android:backgroundTint="@color/green"
-            android:text="Level 2"
+            android:text="Finish"
             android:id="@+id/Level2Btn"
             android:onClick="Level2Btn" />
     </LinearLayout>

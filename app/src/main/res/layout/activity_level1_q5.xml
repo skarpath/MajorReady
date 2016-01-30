@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="5   Using the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1), how would you find pq, the frequency of the Aa genotype?"
+        android:text="5   Using the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1) the frequency of the Aa genotype?"
         android:id="@+id/textView26"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
