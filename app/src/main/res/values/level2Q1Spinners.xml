@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="geneFirst">
+        <item>AUG</item>
+    </string-array>
+    <string-array name="geneMiddle">
+        <item>TTT</item>
+        <item>TTC</item>
+        <item>TTA</item>
+        <item>TTG</item>
+        <item>CTT</item>
+        <item>CTC</item>
+        <item>CTA</item>
+        <item>CTG</item>
+        <item>ATT</item>
+        <item>ATC</item>
+        <item>ATA</item>
+        <item>ATG</item>
+        <item>GTT</item>
+        <item>GTC</item>
+        <item>GTA</item>
+        <item>GTG</item>
+        <item>TCT</item>
+        <item>TCC</item>
+        <item>TCA</item>
+        <item>TCG</item>
+        <item>CCT</item>
+        <item>CCC</item>
+        <item>CCA</item>
+        <item>CCG</item>
+        <item>ACT</item>
+        <item>ACC</item>
+        <item>ACA</item>
+        <item>ACG</item>
+        <item>GCT</item>
+        <item>GCC</item>
+        <item>GCA</item>
+        <item>GCG</item>
+        <item>TAT</item>
+        <item>TAC</item>
+        <item>CAT</item>
+        <item>CAC</item>
+        <item>CAA</item>
+        <item>CAG</item>
+        <item>AAT</item>
+        <item>AAC</item>
+        <item>AAA</item>
+        <item>AAG</item>
+        <item>GAT</item>
+        <item>GAC</item>
+        <item>GAA</item>
+        <item>GAG</item>
+        <item>TGT</item>
+        <item>TGC</item>
+        <item>TGG</item>
+        <item>CGT</item>
+        <item>CGC</item>
+        <item>CGA</item>
+        <item>CGG</item>
+        <item>AGT</item>
+        <item>AGC</item>
+        <item>AGA</item>
+        <item>AGG</item>
+        <item>GGT</item>
+        <item>GGC</item>
+        <item>GGA</item>
+        <item>GGG</item>
+    </string-array>
+    <string-array name="geneEnd">
+        <item>TAG</item>
+        <item>TAA</item>
+        <item>TGA</item>
+    </string-array>
+</resources>
