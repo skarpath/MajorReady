@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
-        setContentView(R.layout.main_activity);
+        setContentView(R.layout.activity_level2_q2);
 
 
 
