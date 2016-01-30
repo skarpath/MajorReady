@@ -44,6 +44,12 @@
                 android:id="@+id/imageButton"
                 android:src="@mipmap/twitter" />
 
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageButton2"
+                android:src="@mipmap/linkedin" />
+
         </LinearLayout>
 
         <Button
