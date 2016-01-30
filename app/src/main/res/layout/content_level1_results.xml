@@ -11,7 +11,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.stephenk.majorready.Level1ResultsActivity"
-    tools:showIn="@layout/activity_level1_results">
+    tools:showIn="@layout/activity_level1_results"
+    android:weightSum="1">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -22,14 +23,14 @@
             android:layout_width="147dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Code"
+            android:text="@string/code"
             android:id="@+id/textView28" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Question"
+            android:text="@string/question"
             android:layout_weight="1"
             android:id="@+id/textView29" />
     </LinearLayout>
@@ -37,7 +38,8 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView" >
+        android:id="@+id/scrollView"
+        android:layout_weight="1.66">
 
         <LinearLayout
             android:orientation="vertical"
@@ -53,7 +55,7 @@
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_weight=".7"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginEnd="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
 
@@ -73,7 +75,7 @@
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_weight=".5"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
 
@@ -81,11 +83,312 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="Description about thisasdfafd. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. "
+                        android:text="@string/testDescription"
                         android:id="@+id/textView27" />
                 </LinearLayout>
             </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".7"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="p = .7"
+                        android:id="@+id/textView26" />
+                </LinearLayout>
+
+                <View
+                    android:background="#555"
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".5"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testDescription"
+                        android:id="@+id/textView27" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".7"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="p = .7"
+                        android:id="@+id/textView26" />
+                </LinearLayout>
+
+                <View
+                    android:background="#555"
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".5"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testDescription"
+                        android:id="@+id/textView27" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".7"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="p = .7"
+                        android:id="@+id/textView26" />
+                </LinearLayout>
+
+                <View
+                    android:background="#555"
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".5"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testDescription"
+                        android:id="@+id/textView27" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".7"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="p = .7"
+                        android:id="@+id/textView26" />
+                </LinearLayout>
+
+                <View
+                    android:background="#555"
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".5"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testDescription"
+                        android:id="@+id/textView27" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".7"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="p = .7"
+                        android:id="@+id/textView26" />
+                </LinearLayout>
+
+                <View
+                    android:background="#555"
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".5"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testDescription"
+                        android:id="@+id/textView27" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".7"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="p = .7"
+                        android:id="@+id/textView26" />
+                </LinearLayout>
+
+                <View
+                    android:background="#555"
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".5"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testDescription"
+                        android:id="@+id/textView27" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".7"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="p = .7"
+                        android:id="@+id/textView26" />
+                </LinearLayout>
+
+                <View
+                    android:background="#555"
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight=".5"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testDescription"
+                        android:id="@+id/textView27" />
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Level 2"
+        android:id="@+id/button5" />
 
 </LinearLayout>

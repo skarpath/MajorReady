@@ -17,4 +17,7 @@
     <string name="l2q2headingmRNA">mRNA</string>
     <string name="l2q2headingDNA">DNA</string>
     <string name="title_activity_level1_results">Level1ResultsActivity</string>
+    <string name="question">Question</string>
+    <string name="code">Code</string>
+    <string name="testDescription">Description about thisasdfafd. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this.</string>
 </resources>
