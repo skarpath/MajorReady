@@ -18,7 +18,7 @@ public class Level2ResultsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level2_results);
 
-        TextView pTextView = (TextView) findViewById(R.id.pTextView);
+        TextView pTextView = (TextView) findViewById(R.id.pTextViewResults2);
         pTextView.setText("dna = " + Data.dnaSeq);
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
