@@ -46,6 +46,7 @@ public class Level1Q2Activitiy extends AppCompatActivity {
     }
 
     public void Lvl1Q2nextBtn(View view){
+        Data.p = seekBar.getProgress() * .01;
         Intent intent = new Intent(this, Level1Q3Activity.class);
         startActivity(intent);
     }

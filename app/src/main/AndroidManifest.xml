@@ -65,6 +65,10 @@
         <activity
             android:name=".ConnectionResources"
             android:label="@string/title_activity_connection_resources"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Level2ResultsActivity"
+            android:label="@string/title_activity_level2_results"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

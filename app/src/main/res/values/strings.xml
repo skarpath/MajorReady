@@ -18,13 +18,20 @@
     <string name="l2q2headingDNA">DNA</string>
     <string name="title_activity_level1_results">Level1ResultsActivity</string>
     <string name="question">Question</string>
-    <string name="code">Code</string>
+    <string name="code">Code (Answer)</string>
     <string name="testDescription">Description about thisasdfafd. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this. Description about this.</string>
     <string name="title_activity_level2_results">Level2ResultsActivity</string>
     <string name="title_activity_connection_resources">ConnectionResources</string>
+    <string name="level1ResultsStep1">What is the frequency of the dominant allele in your population?</string>
+    <string name="level1ResultsStep2">How would you get the recessive allele in your population?</string>
+    <string name="level1ResultsStep3">Using the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1), how would you find p^2, the frequency of the AA genotype?</string>
+    <string name="level1ResultsStep4">Using the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1), how would you find pq, the frequency of the Aa genotype?</string>
+    <string name="level1ResultsStep5">Using the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1), how would you find q^2, the frequency of the aa genotype?</string>
+    <string name="resultsLevel2Code2">func dnaToRna(nucleotide) {\n\tif nucleotide == \"A\" then\n\t\treturn \"U\"\n\telse if nucleotide == \"T\" then\n\t\treturn \"A\"\n\telse if nucleotide == \"G\" then\n\t\treturn \"C\"\n\telse if nucleotide == \"C\" then\n\t\treturn \"G\"\n}</string>
+    <string name="level2ResultsCode3">run dnaToRna X times {\n</string>
 
     <string-array name="Feeds">
-        <item >Apples versus Oranges </item>
+        <item>Apples versus Oranges </item>
 
     </string-array>
 </resources>

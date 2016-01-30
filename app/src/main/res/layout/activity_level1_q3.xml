@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="3   How would you get the recessive alle in your population?"
+        android:text="3   How would you get the recessive allele in your population?"
         android:id="@+id/Lvl1Q3prompttxt"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"

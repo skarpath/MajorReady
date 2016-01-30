@@ -5,6 +5,9 @@ package com.stephenk.majorready;
  */
 public class Data {
 
+    public static double p;
+    public static String dnaSeq;
+
     //Biology
     String[] HeadingsQuestions = {
             "Create Your own gene",
