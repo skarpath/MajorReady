@@ -96,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="T"
+            android:text="A"
             android:layout_weight="1"
             android:id="@+id/textView8" />
 
@@ -109,7 +109,7 @@
         <Spinner
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:id="@+id/L2Q2Spinner2"
+            android:id="@+id/L2Q2Spinner1"
             android:layout_weight="1"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -137,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="G"
+            android:text="T"
             android:layout_weight="1"
             android:id="@+id/textView10" />
 
@@ -150,7 +150,7 @@
         <Spinner
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:id="@+id/L2Q2Spinner3"
+            android:id="@+id/L2Q2Spinner2"
             android:layout_weight="1"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -180,7 +180,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="G"
+            android:text="C"
             android:layout_weight="1"
             android:id="@+id/textView12" />
 
@@ -193,7 +193,7 @@
         <Spinner
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:id="@+id/L2Q2Spinner4"
+            android:id="@+id/L2Q2Spinner3"
             android:layout_weight="1"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -221,7 +221,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="C"
+            android:text="G"
             android:layout_weight="1"
             android:id="@+id/textView15" />
 
@@ -234,7 +234,7 @@
         <Spinner
             android:layout_width="74dp"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner"
+            android:id="@+id/L2Q2Spinner4"
             android:layout_weight="1"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
